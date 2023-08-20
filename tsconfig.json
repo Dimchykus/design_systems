@@ -20,7 +20,13 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@mui/*": ["./src/components/mui/*"],
+      "@mui/core/*": ["./src/core/mui/*"],
+      "@chakra/*": ["./src/components/chakra/*"],
+      "@chakra/core/*": ["./src/core/chakra/*"],
+      "@mantine/*": ["./src/components/mantine/*"],
+      "@mantine/core/*": ["./src/core/mantine/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
